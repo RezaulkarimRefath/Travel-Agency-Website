@@ -1,39 +1,59 @@
-body{
+body {
     font-family: Mulish;
     margin: 2.5rem 3rem 2.5rem 3rem;
 }
-        /* nav start here */
-.nav-container{
+
+.title-text {
+    color: #131318;
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+.description-text {
+    font-size: 1rem;
+    color: grey;
+    font-weight: 400;
+}
+
+/* nav start here */
+.nav-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
+
 }
-.nav-title-conatiner{
+
+.nav-title-conatiner {
     display: flex;
     align-items: center;
     gap: 0.2rem;
 }
-.nav-img{
+
+.nav-img {
     height: 60%;
 }
-.nav-title-red{
+
+.nav-title-red {
     color: #FF5400;
 }
-.nav-title{
+
+.nav-title {
     color: #131318;
     font-size: 2.3rem;
     font-weight: 800;
 }
-.nav-list{
+
+.nav-list {
     list-style: none;
     display: flex;
 }
-.nav-option{
+
+.nav-option {
     text-decoration: none;
-    margin-left: 2.75rem; 
+    margin-left: 2.75rem;
 }
-.nav-option> a{
+
+.nav-option>a {
     text-decoration: none;
     color: #131318;
     font-size: 1.1rem;
@@ -42,32 +62,35 @@ body{
 
 
 /* Explore Your travel Section */
-.travel-destination-conatiner{
+.travel-destination-conatiner {
     background-image: url(Images/Group-13.png);
-    border: 2px solid black;
     background-repeat: no-repeat;
     background-size: cover;
+    border-radius: 5px;
     background-position: center center;
     height: 100vh;
-    
-    
 }
-.travel-destination{
+
+.travel-destination {
     text-align: center;
     align-items: center;
-    margin-top: 8rem ;
+    margin-top: 5rem;
+    padding-top: 5rem;
 }
-.travel-des-title{  
+
+.travel-des-title {
     color: #fff;
     font-size: 4rem;
     font-weight: 800;
 }
-.travel-des-description{
+
+.travel-des-description {
     color: #fff;
     font-size: 1rem;
     font-weight: 400;
 }
-.travel-des-address-selector{
+
+.travel-des-address-selector {
 
     display: flex;
     align-items: center;
@@ -78,55 +101,443 @@ body{
     width: 100%;
     border-radius: 0.5rem;
 }
-.where{
+
+.where {
     margin-left: 1.2rem;
     border-radius: 5px;
     border: transparent;
     padding: 0.5rem;
 }
-.travel-des-address-selector>.where>input{
-   width: 10.75rem;
-   height: 3.25rem; 
-   font-size: 1rem;
-   text-align: center;
-   border-radius: 5px;
 
-}
-.Btn-primary{
+.where>input {
     width: 10.75rem;
-   height: 3.25rem;
-   border-radius: 0.5rem;
-   background: #ff5400;
-   color: #fff;
+    height: 3.25rem;
+    font-size: 1rem;
+    text-align: center;
+    border-radius: 5px;
+    border: none;
+
 }
 
+.Btn-primary {
+    width: 10.75rem;
+    height: 3.25rem;
+    border-radius: 0.5rem;
+    background: #ff5400;
+    color: #fff;
+}
+
+/* Our popular tours start here */
+
+.popular-tour-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3rem;
+    gap: 10%;
+}
+
+.popular-tour-description {
+    flex: 1;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.popular-tour-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+/* Destination location */
+
+.destination {
+    margin-top: 5rem;
+}
+
+.destination-titles {
+    display: block;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.img-title {
+    color: #fff;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 800;
+    align-items: center;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
+}
+
+.sectoreimage {
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
+    border-radius: 5px;
+    background-position: center;
+    min-height: 100%;
+    max-width: 100%;
+    width: 100%;
+    aspect-ratio: 1 / 1;
+}
+
+.destination-img-sector-1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 1%;
+    justify-content: space-evenly;
+    gap: 1%;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.destination-1 {
+    background-image: url(Images/maldiv.png);
+
+}
+
+.destination-2 {
+    background-image: url(Images/indo.png);
+
+}
+
+.destination-img-sector-2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 1%;
+    justify-content: space-evenly;
+    gap: 1%;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.destination-3 {
+    background-image: url(Images/srilanka.png);
+}
+
+.destination-4 {
+    background-image: url(Images/america.png);
+}
+
+.destination-5 {
+    background-image: url(Images/kashmir.png);
+}
+
+.destination-img-sector-3 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 1%;
+    justify-content: space-evenly;
+    gap: 1%;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.destination-6 {
+    background-image: url(Images/bd.png);
+}
+
+.destination-7 {
+    background-image: url(Images/bandarban.png);
+}
+
+/* why you choose us  */
+.choose-us-des {
+    display: block;
+    justify-content: center;
+    text-align: center;
+}
+
+.choose-quality,
+.choose-quality-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1%;
+    margin-bottom: 1rem;
+}
+
+.card {
+    display: block;
+    padding: 1rem;
+    width: 35rem;
+    height: 17rem;
+    border-radius: 16px;
+}
+
+.card-1 {
+    background: rgba(251, 181, 99, 0.05);
+}
+
+.card-2 {
+    background: rgba(41, 206, 246, 0.05);
+}
+
+.card-3 {
+    background: rgba(233, 68, 68, 0.05);
+}
+
+.card-title {
+    color: #131318;
+    font-size: 1.2rem;
+    font-weight: 800;
+}
+
+.card-des {
+    color: #5a5a5d;
+    font-size: 1rem;
+    font-weight: 400;
+}
+/* deals and discounts start here */
+.deal-description{
+    display: block;
+    text-align: center;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+.discount-item{
+    margin-top: 2rem;
+    display: grid;
+    border: 1px solid brown;
+    background: url(Images/Group\ 39.png) center center / contain no-repeat;
+    background-size: cover;
+    height: 100vh;
+    border-radius: 5px;
+}
+.discount-card {
+    
+    width: 579px;
+    height: 389px;
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    padding: 3rem;
+    margin: 3rem;
+}
+.discount-card-align1{
+    place-self: center end;
+}
+.discount-card-align2{
+    place-self: center start;
+}
+.discount-card-align3{
+    place-self: center end;
+}
+.person-count{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.discount-price-text{
+    color: #ff5400 !important;
+}
+.see-more-offer{
+    margin-top: 2rem;
+    display: block;
+    text-align: center;
+}
+
+/* place overview */
+
+.place-overview-container{
+    margin-top: 5rem;
+    display: flex;
+    gap: 2%;
+}
+.place-description{
+    flex: 1;
+    padding: 2rem;
+}
+.place-video{
+    flex: 1;
+    padding: 1rem;
+}
+
+/* newsletter subscriber */
+.newsletter-subscriber-conatiner{
+    display: flex;
+    align-items: center;
+    gap: 1%;
+    margin-top: 5rem;
+
+}
+.subscriber-container{
+    flex: 1;
+    padding: 2rem;
+    border: 1px solid #ff5400;
+    border-radius: 5px;
+}
+.subscriber-list{
+    display: flex;
+    flex-direction: column;
+
+}
+.subscriber-details{
+    padding: 0.5rem;
+    font-size: 1rem;
+    font-weight: 400;
+    border-radius: 8px;
+    border: none;
+    margin: 0.2rem;
+background: rgba(19, 19, 24, 0.05);
+}
+.subscriber-button{
+    border-radius: 8px;
+background: #FF5400;
+padding: 1rem;
+font-size: 1rem;
+color: white;
+
+}
+.newsleeter-container{
+    background: url(Images/Rectangle\ 8\ \(1\).png) center center no-repeat;
+    background-size: cover;
+    flex: 1;
+    height: 50vh;
+    display: flex;
+    justify-content: flex-end;
+   position: relative;
+   overflow: hidden;
+   border-radius: 0.5rem;
+
+}
+.newsletter-offer {
+    display: inline-block; 
+    border: 1px solid black;
+    border-radius: 1rem;
+    background: #FF5400;
+    padding: 0.5rem;
+    transform: rotate(-19deg);
+    height: fit-content;
+    align-self: self-end;
+}
+
+/* footer section */
+.footer-section{
+    background: rgba(19, 19, 24, 0.05);
+}
+.footer-description{
+    margin: 2rem;
+    text-align: center;
+}
+.footer-details, .footer-title{
+    text-align: center;
+}
+
+
+.footer-copyright, .copyright-text{
+    text-align: center;
+    margin: 2rem;
+}
 
 @media screen and (min-width: 447px) and (max-width: 772px) {
-    body{
+    body {
         margin: auto;
     }
-    .nav-container{
+
+    .nav-container {
         flex-direction: column;
     }
-    .nav-option{
+
+    .nav-option {
         margin-left: 1rem;
     }
 
     /* travel section */
-    .travel-finder-section{
+    .travel-finder-section {
         padding: 1rem;
     }
-    .travel-destination-conatiner{
+
+    .travel-destination-conatiner {
         height: auto;
     }
-    .travel-des-address-selector{
+
+    .travel-des-address-selector {
         flex-direction: column;
         margin-top: 0px;
     }
-    .travel-destination{
+
+    .travel-destination {
         margin-top: 0.5rem;
     }
-    .where{
+
+    .where {
         margin-left: 0rem;
     }
+
+    /* popular tour section  */
+    .popular-tour-container {
+        flex-direction: column;
+        gap: 5%;
+    }
+
+    .popular-tour-description {
+        margin: 1rem;
+    }
+
+    .popular-tour-image {
+        margin: 1rem;
+    }
+
+    /* Destination location */
+    .destination-titles {
+        padding: 1.5rem;
+    }
+
+    .destination-img-sector-1,
+    .destination-img-sector-2,
+    .destination-img-sector-3 {
+        grid-template-columns: 1fr;
+        padding: 1rem;
+        margin-top: 1rem;
+    }
+
+    .choose-us-des {
+        margin-top: 5rem;
+        margin: 1rem;
+    }
+
+    .choose-quality {
+        margin-top: 2rem;
+    }
+
+    .choose-quality,
+    .choose-quality-2 {
+        flex-direction: column;
+
+    }
+    .discount-card{
+    padding: 2rem;
+    margin: 0px;
+    }
+    .discount-card-align1, discount-card-align2, discount-card-align3{
+        place-self: center ;
+    }
+
+    /* place overview */
+    .place-overview-container{
+        flex-direction: column;
+    }
+    .place-video{
+        height: auto;
+        width: auto;
+    }
+
+    /* newsletter subscriber  */
+    .newsletter-subscriber-conatiner{
+        flex-direction: column;
+    }
+    .newsleeter-container{
+        margin-top: 1rem;
+        height: 100%;
+    }
+
+
 }
